@@ -5,7 +5,7 @@ Language : PHP, Javascript
 
 Database : Mysql
 
-简单的问卷调查网站,科研中导师让做的一个小练手项目~
+简单的问卷调查网站,导师让做给科研用的一个小练手项目,最后也算用得上~
 
 - [x] 从 Excel 表中导入问卷量表 (使用 PHPExcel 库)
 - [x] 自动生成用户至数据库
@@ -18,6 +18,7 @@ Database : Mysql
 几个功能文件的说明:
 
 *importfromexcel.php* : 从 Excel 表中导入问卷量表之入口.请使用 Excel 2007 以上版本.
+
 *include/generate_users.php* : 自动生成用户.
 
 -------------
